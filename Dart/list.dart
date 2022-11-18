@@ -16,7 +16,7 @@
     // a list to store five elements
     //syntax to declare a list
     //! var lst=new List(size);
-    var nums = new List();
+    var nums = <int>[5];
 
     //elements can be accessed using indexes
     nums[0]=10;
