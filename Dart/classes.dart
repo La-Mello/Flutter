@@ -37,7 +37,7 @@ class Adress{
  }
 
 // demonstrating inheritance
-class Student extends Person{
+/*class Student extends Person{
     String name="";
     int age=0;
     String regNo="";
@@ -59,7 +59,7 @@ class Student extends Person{
         print("Registration Number : ${this.regNo}");
         print("Year of Admission : ${this.yearOfAdm}");
     }
-}
+}*/
 
  void main(){
 
@@ -69,10 +69,10 @@ class Student extends Person{
     //calling the print details method of the Person class
     p.printDetails();
 
-    Student s1 = new Student("Student 1",20,new Adress("Nyeri",0100),"P101/1400G/20",2020);
+    //Student s1 = new Student("Student 1",20,new Adress("Nyeri",0100),"P101/1400G/20",2020);
     //calling the printInfo() method of the student class
-    s1.printInfo();
+    //s1.printInfo();
    
     //calling the print details method of the Person class
-    s1.printDetails();
+    //s1.printDetails();
  }
