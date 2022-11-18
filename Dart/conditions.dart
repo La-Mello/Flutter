@@ -22,6 +22,6 @@
     else if(age>25)
         print("Are you sure ?");
     else if(age>=18)
-        print("Youre in..")
+        print("Youre in..");
 
  }
