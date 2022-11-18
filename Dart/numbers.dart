@@ -2,7 +2,7 @@
     an implementation of numbers using dart
     dart has double<can contin decimal places> and int<cannot contain decimal places>
 
-    In normal Pls the size taken by an  int in memory is 4bytes whereas 8bytes for duble
+    In normal PLs the size taken by an  int in memory is 4bytes whereas 8bytes for duble
  */
 
  void main(){
